@@ -1,0 +1,160 @@
+.main-categories li a {
+    color: black !important;
+}
+
+.main-categories li a:hover {
+    background-color: lightpink;
+}
+
+.category-title-hover h3 a:hover {
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.registration-form {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.radio-checkbox {
+    padding-right: 50px;
+}
+
+.container-section-one {
+    padding-bottom: 0;
+}
+
+/* hsu myat */
+
+.carousel-inner img {
+        width: 100%;
+        margin-top: 50px;
+        overflow: hidden;
+        left: 0px;
+        top: 0px;
+        bottom: 0;
+}
+
+#image{
+    margin-bottom: 20px;
+}
+
+#contact, #contact> h1{
+    color: #FF69B4;
+    display: block;
+
+}
+
+#form{
+    width: 400px;
+    margin-left: 420px;
+}
+
+
+
+#form> button {
+    margin-top: 20px;
+    float: left;
+}
+
+#address{
+    float: left;
+    text-align: left;
+}
+
+#hello{
+    width: 100%;
+}
+
+#contact{
+    background-image: url(../img/bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#gallery{
+    margin-bottom: 50px;
+}
+
+#up{
+    background-color: yellow;
+}
+
+.text-middle { 
+    background: pink;
+    padding-top: 30px;
+    text-align: left;
+}
+#text-middle {
+    background: pink !important;
+}
+
+#head-main-footer {
+    background-color: black;
+    padding: 40px 0 45px 0;
+}
+
+.footer-text-color {
+    color: white;
+}
+
+.navigation-bar-color {
+    background-color: pink !important;
+}
+
+.form-group-second {
+    width: 100% !important;
+}
+
+.form-control-second {
+    margin-left: 10px;
+    width: 94.5%;
+}
+
+.btn-primary-secondary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.register-button {
+    margin-right: 280px !important;
+}
+
+.register-button button {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.register-button-one button {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin-bottom: 20px;
+}
+
+.process-to-checkout div {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.submit-form-one button {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin-bottom: 20px;
+}
+
+.welcome-to-jewellery {
+    color: black !important;
+    font-weight: bolder;
+    background-color: ;
+}

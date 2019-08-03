@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Jewellery Shop</title>
+
+    <!-- CSS -->        
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Roboto:300,400,500">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon-diamond.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body>
+
+        <!-- Top menu -->
+        <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg navigation-bar-color" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- <a class="navbar-brand" href="index.html">Bootstrap Navbar Menu Template</a> -->
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="top-navbar-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+                            <ul class="dropdown-menu main-categories">
+                                <li><a href="category.html" target="_blank">category</a></li>
+                                <li><a href="necklace.html" target="_blank">necklace</a></li>
+                                <li><a href="earring.html" target="_blank">earring</a></li>
+                                <li><a href="ring.html" target="_blank">Rings</a></li>
+                                <li><a href="bracelet.html" target="_blank">bracelet</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Orders <span class="caret"></span></a>
+                            <ul class="dropdown-menu main-categories">
+                                <li><a href="payment.html" target="_blank">payment</a></li>
+                                <li><a href="checkout.html" target="_blank">checkout</a></li>
+                                <li><a href="address.html" target="_blank">address</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="btn btn-link-3" href="register.html">Register</a></li>
+                        <li><a class="btn btn-link-3" href="login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    	<div class="container-fulid">
+    		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    			<!--indicators-->
+    			<ol class="carousel-indicators">
+    				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    				<li data-target="#myCarousel" data-slide-to="1"></li>
+    				<li data-target="#myCarousel" data-slide-to="2"></li>
+    				<li data-target="#myCarousel" data-slide-to="3"></li>
+    				<li data-target="#myCarousel" data-slide-to="4"></li>
+    			</ol>
+    			<!-- Wrapper for slides -->
+    			<div class="carousel-inner" role="listbox">
+    				<div class="item active">
+    					<img src="assets/img/carousel1.jpg" alt="no image">
+    				</div>
+
+    				<div class="item">
+    					<img src="assets/img/carousel2.jpg" alt="no image">
+    				</div>
+
+    				<div class="item">
+    					<img src="assets/img/carousel3.jpg" alt="no image">
+    				</div>
+
+    				<div class="item">
+    					<img src="assets/img/carousel4.jpg" alt="no image">
+    				</div>
+
+    				<div class="item">
+    					<img src="assets/img/carousel5.jpg" alt="no image">
+    				</div>
+
+    			</div>
+    			<!-- Left and right controls -->
+    			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    				<span class="sr-only">Previous</span>
+    			</a>
+
+    			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    				<span class="sr-only">Next</span>
+    			</a>	
+    		</div>
+    	</div><!--end carousel-->
+
+    	<!-- Features -->
+    	<div class="features-container section-container">
+    		<div class="container">
+
+    			<div class="row">
+    				<div class="col-sm-12 features section-description wow fadeIn">
+    					<h2>Welcome, lovely!</h2>
+    					<div class="divider-1"><div class="line"></div></div>
+    				</div>
+    			</div>
+
+    			<div class="row">
+    				<div class="col-sm-6 features-box wow fadeInRightBig">
+    					<img src="assets/img/img1.jpg">
+    				</div>
+    				<div class="col-sm-6 features-box wow fadeInUp">
+    					<h1>Our Story</h1>
+    					<p>Your life should be accessorized! With this in mind, we started this online store several years ago. Our unique and one-of-a-kind jewelry is handmade by the finest artist jewelers from around the world, which makes us exclusive and extremely unique. Make sure that our products are exceptional and unusual. Almost every piece of jewelry in our store is created in only one copy.
+    					</p>
+    				</div>
+    			</div>
+
+    			<div class="row">
+    				<div class="col-sm-6 features-box wow fadeInDowns">
+    					<h1>Accent Your Style</h1>
+    					<p>Our products are a combination of classic and modern style; we can satisfy the demands of any customers, that is why we have so many fans. You will always be popular with our jewelry; the magical shine of our products will bring you the best of luck! If you want to be more elegant and stylish you should try on our goods, they are worth you. </p>
+    				</div>
+    				<div class="col-sm-6 features-box wow fadeInLeftBig">
+    					<img src="assets/img/img2.jpg">
+    				</div>
+    			</div>
+
+    		</div>
+    	</div><!--end of our story and accents your style-->
+
+    	<div class="container-fulid" id="contact">
+    		<h1>Contact Us</h1>
+    		<div class="row">
+    			<div class="col-sm-9" id="form">
+    				<div class="form-group form-group-second" width="">
+    					<input type="text" class="form-control" id="text" placeholder="Name">
+    				</div>
+    				<div class="form-group form-group-second">
+    					<input type="email" class="form-control" id="email" placeholder="Email">
+    				</div>
+
+    				<textarea class="form-control form-control-second" id="exampleTextarea" rows="6" placeholder="Message"></textarea>
+
+    				<button type="submit" class="btn btn-primary btn-primary-secondary">Send</button>
+
+    			</div>
+
+    			<div class="col-sm-3 wow fadeInDown">
+    				<div class="row">
+    					<div class="col-sm-2">
+    						<i class="fas fa-location-arrow"></i>
+    					</div>
+    					<div class="col-sm-10" id="address">
+    						<h4>Address</h4>
+    						<p>4801 South University Drive<br>
+    							Suite 237, Ft. Lauderdale,<br>
+    						FL 33328, United States</p>
+    					</div>
+    				</div>
+
+    				<div class="row">
+    					<div class="col-sm-2" id="address">
+    						<i class="fas fa-phone"></i>
+    					</div>
+    					<div class="col-sm-10" id="address">
+    						<h4>Phone</h4>
+    						+1 (409) 987-5874<br>
+    						+1 (409) 987-5875
+    					</div>
+    				</div>
+
+    				<div class="row">
+    					<div class="col-sm-2" id="address">
+    						<i class="fas fa-envelope"></i>
+    					</div>
+    					<div class="col-sm-10" id="address">
+    						<h4>Email</h4>
+    						<p>contact@gmail.com</p>
+    					</div>
+    				</div>
+
+    			</div>
+
+    		</div>
+    	</div><!--end of contact us-->
+
+    	<div class="container" id="gallery">
+    		<h1>Our Gallery</h1>
+    		<div class="row wow bounceInDown" id="image">
+    			
+    			<div class="col-sm-3">
+    				<img src="assets/img/img4.jpg" >
+
+    			</div>
+
+    			<div class="col-sm-6">
+    				<img src="assets/img/img5.jpg">
+    			</div>
+
+
+    			<div class="col-sm-3">
+    				<img src="assets/img/img6.jpg">
+    			</div>
+    		</div>
+
+
+    		<div class="row wow bounceInLeft">
+
+    			<div class="col-sm-3">
+    				<img src="assets/img/img7.jpg">
+    			</div>
+
+    			<div class="col-sm-6">
+    				<img src="assets/img/img8.jpg">
+    			</div>
+
+    			<div class="col-sm-3">
+    				<img src="assets/img/img9.jpg">
+    			</div>
+
+    		</div>
+    	</div><!--end of gallery-->
+
+    	
+
+
+    	<!-- Footer -->
+    	<footer class="text-middle">
+    		<div class="container" id="footer">
+    			<div class="row">
+    				<div class="col-sm-4">
+    					<h3>Social Links</h3>
+    					<button type="button" class="btn btn-info"><i class="fab fa-facebook-square fa-2x"></i></button>
+    					<button class="btn btn-info"><i class="fab fa-twitter fa-2x"></i></button>
+    					<button class="btn btn-info"><i class="fab fa-instagram fa-2x"></i></button>
+    					<button class="btn btn-info"><i class="fab fa-pinterest-square fa-2x"></i></button>
+
+    				</div>
+
+    				<div class="col-sm-4">
+    					<h3>Opeing Hours</h3>
+    					<p>7 days a week
+    					from 8:00 AM to 3:00 AM</p>
+    				</div>
+    				<div class="col-sm-4">
+    					<h3>Our Map</h3>
+    					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61107.959799860175!2d96.16834554042023!3d16.814074073101143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ec821e2ca249%3A0x669e7428c87ff16f!2sPandora+Myanmar!5e0!3m2!1sen!2smm!4v1526132586096" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+    				</div>
+    			</div>
+    		</div>
+    	</footer>
+
+    	<footer class="text-center" id="text-middle">
+    		<a href="index.html" class="up-arrow" data-toggle="tooltip" title="TO TOP" id="arrow">
+    			<span class="glyphicon glyphicon-chevron-up"></span>
+    		</a><br><br>
+    		<p>Hsu Myat Htet</p>
+    	</footer>
+        <footer id="head-main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 footer-copyright footer-text-color">
+                       &copy; Project Made By Tun Tun Aung, Cherry Aung, Zin Moe Oo, Hsu Myat Htet, and  Ei Myat.<a href=""></a>
+                   </div>
+                </div>
+            </div>
+        </footer>
+    	<script>
+    		$(document).ready(function(){
+        // Initialize Tootltip
+        $('[data-toggle="tooltip"]').tooltip(); 
+          //Add smoot scrolling to all links in navbar+ footer link
+          $(".navbar a, footer a[href='#myPage']").on('click',function(event){
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash!== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              //Store hash
+              var hash = this.hash;
+
+              //Using jQuery's animate() method to add smooth page scrolll
+              // The optional number  (900) specifies the numberr of milliseconds it takes to scroll to the specified area
+              $('html,body').animate({
+              	scrollTop:$(hash).offset().top
+              },900, function() {
+                // Add hash (#) to URL when done scrolling (default) click behavior)
+                window.location.hash = hash;
+            });
+            } // end if
+        });  
+      })
+  </script>   	
+  <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/fontawesome-all.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+
+
+
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
+    </html>
